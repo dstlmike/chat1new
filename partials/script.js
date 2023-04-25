@@ -1,33 +1,4 @@
-/*var pics = [
 
-            'url(
-
-"Screenshot_20221204-214353_Chrome.jpg")',
-
-            'url(
-
-"Screenshot_20221204-214401_Chrome.jpg")',
-
-            'url(
-
-"Screenshot_20221204-214455_Chrome.jpg")'
-
-        ];
-function showImage() {
-
-            var a = Math.floor(Math.random() * pics.length);
-
-            var img = pics[a];
-//return img;
-            pic.style.backgroundImage = img;
-
-       }
-
-  var pic = document.querySelector('section');
-
-setInterval(showImage, 1000);
-    //   showImage();
- */       
 gsap.utils.toArray(".parallax").forEach((section, i) => {
   section.bg = section.querySelector(".bg"); //, ".bgb", ".bgc", ".bgd"'); //section.querySelector(".bgb") && section.querySelector(".bgc") && section.querySelector(".bgd");
 var pics = [url(Screenshot_20221204-214353_Chrome.jpg), url(Screenshot_20221204-214401_Chrome.jpg), url(Screenshot_20221204-214455_Chrome.jpg)];

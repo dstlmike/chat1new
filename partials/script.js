@@ -30,21 +30,7 @@ setInterval(showImage, 1000);
  */       
 gsap.utils.toArray(".parallax").forEach((section, i) => {
   section.bg = section.querySelector(".bg"); //, ".bgb", ".bgc", ".bgd"'); //section.querySelector(".bgb") && section.querySelector(".bgc") && section.querySelector(".bgd");
-var pics = [
-
-            'url(
-
-Screenshot_20221204-214353_Chrome.jpg)',
-
-            'url(
-
-Screenshot_20221204-214401_Chrome.jpg)',
-
-            'url(
-
-Screenshot_20221204-214455_Chrome.jpg)'
-
-        ];
+var pics = ['url(Screenshot_20221204-214353_Chrome.jpg)', 'url(Screenshot_20221204-214401_Chrome.jpg)', 'url(Screenshot_20221204-214455_Chrome.jpg)'];
 var pic = document.querySelector('section');
 
   
@@ -96,7 +82,7 @@ return img;
 
   // Give the backgrounds some random images
  //section.bg.style.backgroundImage = myPix[randomNum]; // = randomNum;
-  section.bg.style.backgroundImage = pic; //showImage(); //`url(myPix[randomNum])`; //Screenshot_20221204-214401_Chrome.jpg)`;
+  section.bg.style.backgroundImage = `pics[a]`; //showImage(); //`url(myPix[randomNum])`; //Screenshot_20221204-214401_Chrome.jpg)`;
   //section.bgc.style.backgroundImage = `url(Screenshot_20221204-214455_Chrome.jpg)`;
 //section.bgd.style.backgroundImage = `url(Screenshot_20221204-214455_Chrome.jpg)`;
 

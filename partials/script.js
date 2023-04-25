@@ -7,7 +7,7 @@ var myPix = new Array("`url(Screenshot_20221204-214353_Chrome.jpg)`", "`url(Scre
    var randomNum = Math.floor(Math.random() * myPix.length);
 
   // Give the backgrounds some random images
- section.bg.style.backgroundImage = randomNum; // = randomNum;
+ section.bg.style.backgroundImage = myPix[randomNum]; // = randomNum;
 //  section.bgb.style.backgroundImage = `url(Screenshot_20221204-214401_Chrome.jpg)`;
   //section.bgc.style.backgroundImage = `url(Screenshot_20221204-214455_Chrome.jpg)`;
 //section.bgd.style.backgroundImage = `url(Screenshot_20221204-214455_Chrome.jpg)`;

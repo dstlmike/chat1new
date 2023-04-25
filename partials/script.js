@@ -13,11 +13,25 @@ var pics = [
 "Screenshot_20221204-214455_Chrome.jpg")'
 
         ];
+function showImage() {
 
-        var pic = section.querySelector('.bg');
+            var a = Math.floor(Math.random() * pics.length);
 
+            var img = pics[a];
+return img;
+          //  pic.style.backgroundImage = img;
+
+        }
+
+  var pic = section.querySelector('.bg');
+
+
+       showImage();
+        
 gsap.utils.toArray(".parallax").forEach((section, i) => {
   section.bg = section.querySelector(".bg"); //, ".bgb", ".bgc", ".bgd"'); //section.querySelector(".bgb") && section.querySelector(".bgc") && section.querySelector(".bgd");
+var pic = section.querySelector('.bg');
+
 //section.bgb = section.querySelector(".bgb"),
 //section.bgc = section.querySelector(".bgc"),
 //section.bgd = section.querySelector(".bgd");
@@ -39,21 +53,22 @@ gsap.utils.toArray(".parallax").forEach((section, i) => {
 
         var pic = document.querySelector('section');
 
-  */
+  
 
     //    function showImage() {
 
             var a = Math.floor(Math.random() * pics.length);
 
             var img = pics[a];
-
+return img;
           //  pic.style.backgroundImage = img;
 
     //    }
 
   
 
-       // showImage();
+       showImage();
+*/
 //Screenshot_20221204-214353_Chrome.jpg)", "Screenshot_20221204-214401_Chrome.jpg", "Screenshot_20221204-214455_Chrome.jpg");
   // var randomNum = Math.floor(Math.random() * myPix.length);
 

@@ -3,7 +3,7 @@ gsap.utils.toArray(".parallax").forEach((section, i) => {
 //section.bgb = section.querySelector(".bgb"),
 //section.bgc = section.querySelector(".bgc"),
 //section.bgd = section.querySelector(".bgd");
-var myPix = new Array("const pics = [
+var pics = [
 
             'url(
 

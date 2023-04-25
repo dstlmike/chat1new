@@ -13,25 +13,43 @@ var pics = [
 "Screenshot_20221204-214455_Chrome.jpg")'
 
         ];
-function showImage() {
+//function showImage() {
 
             var a = Math.floor(Math.random() * pics.length);
 
             var img = pics[a];
-return img;
+//return img;
           //  pic.style.backgroundImage = img;
 
-        }
+    //    }
 
-  var pic = section.querySelector('.bg');
+ // var pic = section.querySelector('.bg');
 
 
-       showImage();
+    //   showImage();
         
 gsap.utils.toArray(".parallax").forEach((section, i) => {
   section.bg = section.querySelector(".bg"); //, ".bgb", ".bgc", ".bgd"'); //section.querySelector(".bgb") && section.querySelector(".bgc") && section.querySelector(".bgd");
-var pic = section.querySelector('.bg');
+var pics = [
 
+            'url(
+
+"Screenshot_20221204-214353_Chrome.jpg)")',
+
+            'url(
+
+"Screenshot_20221204-214401_Chrome.jpg")',
+
+            'url(
+
+"Screenshot_20221204-214455_Chrome.jpg")'
+
+        ];
+//function showImage() {
+
+            var a = Math.floor(Math.random() * pics.length);
+
+            var img = pics[a];
 //section.bgb = section.querySelector(".bgb"),
 //section.bgc = section.querySelector(".bgc"),
 //section.bgd = section.querySelector(".bgd");

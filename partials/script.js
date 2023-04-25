@@ -1,4 +1,4 @@
-/*var pics = [
+var pics = [
 
             'url(
 
@@ -13,24 +13,24 @@
 "Screenshot_20221204-214455_Chrome.jpg")'
 
         ];
-//function showImage() {
+function showImage() {
 
             var a = Math.floor(Math.random() * pics.length);
 
             var img = pics[a];
 //return img;
-          //  pic.style.backgroundImage = img;
+            pic.style.backgroundImage = img;
 
-    //    }
+       }
 
- // var pic = section.querySelector('.bg');
+  var pic = document.querySelector('.section');
 
-
+setInterval(showImage, 1000);
     //   showImage();
-        */
+        
 gsap.utils.toArray(".parallax").forEach((section, i) => {
   section.bg = section.querySelector(".bg"); //, ".bgb", ".bgc", ".bgd"'); //section.querySelector(".bgb") && section.querySelector(".bgc") && section.querySelector(".bgd");
-var pics = [
+/*var pics = [
 
             'url(
 
@@ -53,7 +53,7 @@ var pics = [
 //section.bgb = section.querySelector(".bgb"),
 //section.bgc = section.querySelector(".bgc"),
 //section.bgd = section.querySelector(".bgd");
-/*var pics = [
+var pics = [
 
             'url(
 

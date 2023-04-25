@@ -1,8 +1,8 @@
-gsap.utils.toArray(".parallax").forEach((section, i) => {
+gsap.utils.toArray(".parallax").forEach((section) => {
   section.bg = section.querySelector(".bg");
-section.bgb = section.querySelector(".bga");
-section.bgc = section.querySelector(".bgb");
-section.bgd = section.querySelector(".bgc");
+section.bgb = section.querySelector(".bgb");
+section.bgc = section.querySelector(".bgc");
+section.bgd = section.querySelector(".bgd");
 
   // Give the backgrounds some random images
   section.bg.style.backgroundImage = `url(Screenshot_20221204-214353_Chrome.jpg)`;
@@ -11,7 +11,7 @@ section.bgd = section.querySelector(".bgc");
 section.bgd.style.backgroundImage = `url(Screenshot_20221204-214455_Chrome.jpg)`;
 
   // Do the parallax effect on each section
-  if (i) {
+ // if (i) {
     section.bg.style.backgroundPosition = `50% ${innerHeight / 2}px`;
   section.bgb.style.backgroundPosition = `50% ${innerHeight / 2}px`;
   section.bgc.style.backgroundPosition = `50% ${innerHeight / 2}px`;
@@ -49,5 +49,5 @@ gsap.to(section.bgd, {
         scrub: true
       }
     });
-  }
+//  }
 });

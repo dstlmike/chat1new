@@ -12,7 +12,7 @@ gsap.utils.toArray(".parallax").forEach((section, i) => {
 
   // Do the parallax effect on each section
   if (i) {
-    section.bg.style.backgroundPosition = `50% ${innerHeight / 2}px`;
+    //section.bg.style.backgroundPosition = `50% ${innerHeight / 2}px`;
  // section.bgb.style.backgroundPosition = `50% ${innerHeight / 2}px`;
  // section.bgc.style.backgroundPosition = `50% ${innerHeight / 2}px`;
 //section.bgd.style.backgroundPosition = `50% ${innerHeight / 2}px`;

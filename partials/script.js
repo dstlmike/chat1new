@@ -4,7 +4,7 @@ gsap.utils.toArray(".parallax").forEach((section) => {
 //var section-c = section.bg;
 
   // Give the backgrounds some random images
-  section.bg.style.backgroundImage = `url(Screenshot_20221204-214353_Chrome.jpg`, url(Screenshot_20221204-214401_Chrome.jpg`, `url(Screenshot_20221204-214455_Chrome.jpg)`;
+  section.bg.style.backgroundImage = `url(Screenshot_20221204-214353_Chrome.jpg`, `url(Screenshot_20221204-214401_Chrome.jpg`, `url(Screenshot_20221204-214455_Chrome.jpg)`;
 
   // Do the parallax effect on each section
   if (i) {

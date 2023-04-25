@@ -25,5 +25,5 @@ section.bgd.style.backgroundPosition = `50% ${innerHeight / 2}px`;
         scrub: true
       }
     });
- }
+// }
 });

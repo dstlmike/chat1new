@@ -1,4 +1,4 @@
-gsap.utils.toArray(".parallax").forEach((section, i) => {
+gsap.utils.toArray(".parallax").forEach((section) => {
   section.bg = section.querySelector(".bg"); 
 
   // Give the backgrounds some random images

@@ -23,7 +23,7 @@ function showImage() {
 
        }
 
-  var pic = document.querySelector('.section');
+  var pic = document.querySelector('section');
 
 setInterval(showImage, 1000);
     //   showImage();

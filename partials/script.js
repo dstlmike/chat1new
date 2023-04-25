@@ -25,5 +25,29 @@ section.bgd.style.backgroundPosition = `50% ${innerHeight / 2}px`;
         scrub: true
       }
     });
+gsap.to(section.bgb, {
+      backgroundPosition: `50% ${-innerHeight / 2}px`,
+      ease: "none",
+      scrollTrigger: {
+        trigger: section,
+        scrub: true
+      }
+    });
+gsap.to(section.bgc, {
+      backgroundPosition: `50% ${-innerHeight / 2}px`,
+      ease: "none",
+      scrollTrigger: {
+        trigger: section,
+        scrub: true
+      }
+    });
+gsap.to(section.bgd, {
+      backgroundPosition: `50% ${-innerHeight / 2}px`,
+      ease: "none",
+      scrollTrigger: {
+        trigger: section,
+        scrub: true
+      }
+    });
   }
 });

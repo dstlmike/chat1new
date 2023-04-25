@@ -11,7 +11,7 @@ section.bgd = section.querySelector(".bgd");
 section.bgd.style.backgroundImage = `url(Screenshot_20221204-214455_Chrome.jpg)`;
 
   // Do the parallax effect on each section
- // if (i) {
+ if (i) {
     section.bg.style.backgroundPosition = `50% ${innerHeight / 2}px`;
   section.bgb.style.backgroundPosition = `50% ${innerHeight / 2}px`;
   section.bgc.style.backgroundPosition = `50% ${innerHeight / 2}px`;
@@ -49,5 +49,5 @@ gsap.to(section.bgd, {
         scrub: true
       }
     });
-//  }
+ }
 });

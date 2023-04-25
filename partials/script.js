@@ -2,7 +2,7 @@ var pics = [
 
             'url(
 
-"Screenshot_20221204-214353_Chrome.jpg)")',
+"Screenshot_20221204-214353_Chrome.jpg")',
 
             'url(
 

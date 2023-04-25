@@ -69,8 +69,12 @@ return img;
  // section.bgb.style.backgroundPosition = `50% ${innerHeight / 2}px`;
  // section.bgc.style.backgroundPosition = `50% ${innerHeight / 2}px`;
 //section.bgd.style.backgroundPosition = `50% ${innerHeight / 2}px`;
+//setInterval(showImage, 1000);
 
-    gsap.to(section.bg, {
+   
+
+
+    var showImage = gsap.to(section.bg, {
       backgroundPosition: `50% ${-innerHeight / 2}px`,
       ease: "none",
       scrollTrigger: {
@@ -78,5 +82,10 @@ return img;
         scrub: true
       }
     });
+setInterval(showImage, 1000);
+
+   
+
+
  }
 });

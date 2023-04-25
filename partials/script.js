@@ -1,5 +1,5 @@
 gsap.utils.toArray(".parallax").forEach((section) => {
-  section.bg = section.querySelector(".bg");
+  section.bg = section.querySelector(".bg", ".bgb", ".bgc", ".bgd");
 section.bgb = section.querySelector(".bgb");
 section.bgc = section.querySelector(".bgc");
 section.bgd = section.querySelector(".bgd");

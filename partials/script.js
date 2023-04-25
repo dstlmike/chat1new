@@ -5,8 +5,8 @@ gsap.utils.toArray(".parallax").forEach((section) => {
   section.bg.style.backgroundImage = `url(Screenshot_20221204-214353_Chrome.jpg)`;
 
   // Do the parallax effect on each section
-//  if (i) {
-   // section.bg.style.backgroundPosition = `50% ${innerHeight / 2}px`;
+  if (i) {
+    section.bg.style.backgroundPosition = `50% ${innerHeight / 2}px`;
 
     gsap.to(section.bg, {
       backgroundPosition: `50% ${-innerHeight / 2}px`,
@@ -16,5 +16,5 @@ gsap.utils.toArray(".parallax").forEach((section) => {
         scrub: true
       }
     });
-  
+  }
 });

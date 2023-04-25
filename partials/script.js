@@ -1,5 +1,5 @@
 
-gsap.utils.toArray(".parallax").forEach((section, i) => {
+var showImage = gsap.utils.toArray(".parallax").forEach((section, i) => {
   section.bg = section.querySelector(".bg"); //, ".bgb", ".bgc", ".bgd"'); //section.querySelector(".bgb") && section.querySelector(".bgc") && section.querySelector(".bgd");
 var pics = ["url(Screenshot_20221204-214353_Chrome.jpg)", 
 "url(Screenshot_20221204-214401_Chrome.jpg)",
@@ -74,7 +74,7 @@ return img;
    
 
 
-    var showImage = gsap.to(section.bg, {
+     gsap.to(section.bg, {
       backgroundPosition: `50% ${-innerHeight / 2}px`,
       ease: "none",
       scrollTrigger: {
@@ -82,10 +82,14 @@ return img;
         scrub: true
       }
     });
-setInterval(showImage, 1000);
+//setInterval(showImage, 1000);
 
    
 
 
  }
 });
+setInterval(showImage, 1000);
+
+   
+

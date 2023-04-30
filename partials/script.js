@@ -1,6 +1,6 @@
 gsap.utils.toArray(".parallax").forEach((section, i) => {
   section.bg = section.querySelector(".bg"); //, ".bgb", ".bgc", ".bgd"'); //section.querySelector(".bgb") && section.querySelector(".bgc") && section.querySelector(".bgd");
-section.h1 = section.querySelector("h1"); //, ".bgb", ".bgc", ".bgd"'); //section.querySelector(".bgb") && section.querySelector(".bgc") && section.querySelector(".bgd");
+section.h1 = section.querySelector(".h1"); //, ".bgb", ".bgc", ".bgd"'); //section.querySelector(".bgb") && section.querySelector(".bgc") && section.querySelector(".bgd");
 
 var pics = ["url(skyline1.jpg)", 
 "url(skyline2.jpg)",

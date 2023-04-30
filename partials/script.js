@@ -1,5 +1,4 @@
-setInterval(showImage, 1000);
-var showImage = gsap.utils.toArray(".parallax").forEach((section, i) => {
+gsap.utils.toArray(".parallax").forEach((section, i) => {
   section.bg = section.querySelector(".bg"); //, ".bgb", ".bgc", ".bgd"'); //section.querySelector(".bgb") && section.querySelector(".bgc") && section.querySelector(".bgd");
 var pics = ["url(skyline1.jpg)", 
 "url(skyline2.jpg)",

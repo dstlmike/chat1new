@@ -59,7 +59,7 @@ return img;
   // Give the backgrounds some random images
  //section.bg.style.backgroundImage = myPix[randomNum]; // = randomNum;
   section.bg.style.backgroundImage = img; // pics[a]; //showImage(); //`url(myPix[randomNum])`; //Screenshot_20221204-214401_Chrome.jpg)`;
-  section.h1.style.z-index = `1`;
+  section.h1.style.zIndex = `1`;
 //section.bgc.style.backgroundImage = `url(Screenshot_20221204-214455_Chrome.jpg)`;
 //section.bgd.style.backgroundImage = `url(Screenshot_20221204-214455_Chrome.jpg)`;
 

@@ -68,7 +68,7 @@ return img;
 //var myPix = new Array("Screenshot_20221204-214353_Chrome.jpg", "Screenshot_20221204-214401_Chrome.jpg", "Screenshot_20221204-214455_Chrome.jpg");
  //  var randomNum = Math.floor(Math.random() * myPix.length);
 //section.h1.style.zIndex = `-1`;
- section.bg.style.backgroundPosition = `100%`; //${innerHeight / 4}px`;
+ section.bg.style.backgroundPosition = `50%`; //${innerHeight / 4}px`;
  // section.bgb.style.backgroundPosition = `50% ${innerHeight / 2}px`;
  // section.bgc.style.backgroundPosition = `50% ${innerHeight / 2}px`;
 //section.bgd.style.backgroundPosition = `50% ${innerHeight / 2}px`;
@@ -78,7 +78,7 @@ return img;
 
 
      gsap.to(section.bg, {
-      backgroundPosition: `100%`, // ${innerHeight / 4}px`,
+      backgroundPosition: `50%`, // ${innerHeight / 4}px`,
       ease: "none",
       scrollTrigger: {
         trigger: section,

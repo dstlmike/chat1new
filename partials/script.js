@@ -21,14 +21,14 @@ var pic = document.querySelector('section');
   // Do the parallax effect on each section
   if (i) {
 
-section.bg.style.backgroundPosition = `10% ${innerHeight / 2}px`;
+section.bg.style.backgroundPosition = `10% ${innerHeight}px`;
 
 
    
 
 
      gsap.to(section.bg, {
-      backgroundPosition: `10% ${-innerHeight / 2}px`,
+      backgroundPosition: `10% ${-innerHeight}px`,
       ease: "none",
       scrollTrigger: {
         trigger: section,

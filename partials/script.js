@@ -1,6 +1,5 @@
 gsap.utils.toArray(".parallax").forEach((section, i) => {
   section.bg = section.querySelector(".bg"); //, ".bgb", ".bgc", ".bgd"'); //section.querySelector(".bgb") && section.querySelector(".bgc") && section.querySelector(".bgd");
-//section.h1 = section.querySelector(".h1"); //, ".bgb", ".bgc", ".bgd"'); //section.querySelector(".bgb") && section.querySelector(".bgc") && section.querySelector(".bgd");
 
 var pics = ["url(skyline1.jpg)", 
 "url(skyline2.jpg)",
@@ -15,64 +14,15 @@ var pic = document.querySelector('section');
             var a = Math.floor(Math.random() * pics.length);
 
             var img = pics[a];
-/*
-//section.bgb = section.querySelector(".bgb"),
-//section.bgc = section.querySelector(".bgc"),
-//section.bgd = section.querySelector(".bgd");
-var pics = [
-
-            'url(
-
-"Screenshot_20221204-214353_Chrome.jpg)")',
-
-            'url(
-
-"Screenshot_20221204-214401_Chrome.jpg")',
-
-            'url(
-
-"Screenshot_20221204-214455_Chrome.jpg")'
-
-        ];
-
-        var pic = document.querySelector('section');
-
-  
-
-    //    function showImage() {
-
-            var a = Math.floor(Math.random() * pics.length);
-
-            var img = pics[a];
-return img;
-          //  pic.style.backgroundImage = img;
-
-    //    }
-
-  
-
-       showImage();
-*/
-//Screenshot_20221204-214353_Chrome.jpg)", "Screenshot_20221204-214401_Chrome.jpg", "Screenshot_20221204-214455_Chrome.jpg");
-  // var randomNum = Math.floor(Math.random() * myPix.length);
 
   // Give the backgrounds some random images
- //section.bg.style.backgroundImage = myPix[randomNum]; // = randomNum;
-  section.bg.style.backgroundImage = img; // pics[a]; //showImage(); //`url(myPix[randomNum])`; //Screenshot_20221204-214401_Chrome.jpg)`;
-  //section.h1.style.zIndex = `1`;
-//section.bgc.style.backgroundImage = `url(Screenshot_20221204-214455_Chrome.jpg)`;
-//section.bgd.style.backgroundImage = `url(Screenshot_20221204-214455_Chrome.jpg)`;
+   section.bg.style.backgroundImage = img; // pics[a]; //showImage(); //`url(myPix[randomNum])`; //Screenshot_20221204-214401_Chrome.jpg)`;
 
   // Do the parallax effect on each section
   if (i) {
-//var myPix = new Array("Screenshot_20221204-214353_Chrome.jpg", "Screenshot_20221204-214401_Chrome.jpg", "Screenshot_20221204-214455_Chrome.jpg");
- //  var randomNum = Math.floor(Math.random() * myPix.length);
-//section.h1.style.zIndex = `-1`;
+
 section.bg.style.backgroundPosition = `100%`; //${innerHeight / 4}px`;
- // section.bgb.style.backgroundPosition = `50% ${innerHeight / 2}px`;
- // section.bgc.style.backgroundPosition = `50% ${innerHeight / 2}px`;
-//section.bgd.style.backgroundPosition = `50% ${innerHeight / 2}px`;
-//setInterval(showImage, 1000);
+
 
    
 
@@ -85,7 +35,6 @@ section.bg.style.backgroundPosition = `100%`; //${innerHeight / 4}px`;
         scrub: true
       }
     });
-//setInterval(showImage, 1000);
 
    
 

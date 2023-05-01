@@ -28,7 +28,7 @@ section.bg.style.backgroundPosition = `100% ${innerHeight / 2}px`;
 
 
      gsap.to(section.bg, {
-      backgroundPosition: `100% ${innerHeight / 2}px`,
+      backgroundPosition: `100% ${-innerHeight / 2}px`,
       ease: "none",
       scrollTrigger: {
         trigger: section,

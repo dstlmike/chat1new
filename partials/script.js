@@ -4,7 +4,8 @@ gsap.utils.toArray(".parallax").forEach((section, i) => {
 var pics = ["url(skyline1.jpg)", 
 "url(skyline2.jpg)",
 "url(skyline3.jpg)",
-"url(skyline4.jpg)"
+"url(skyline4.jpg)",
+"url(movie.mp4)"
 ];
 var pic = document.querySelector('section');
 

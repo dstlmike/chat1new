@@ -5,7 +5,9 @@ var pics = ["url(skyline1.jpg)",
 "url(skyline2.jpg)",
 "url(skyline3.jpg)",
 "url(skyline4.jpg)",
-"url(pic1.jpeg)"
+"url(pic1.jpeg)",
+"url(pic2.jpeg)",
+"url(pic3.jpeg)"
 ];
 var pic = document.querySelector('section');
 

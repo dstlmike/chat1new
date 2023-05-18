@@ -1,5 +1,6 @@
 gsap.utils.toArray(".parallax").forEach((section, i) => {
   section.bg = section.querySelector(".bg"); //, ".bgb", ".bgc", ".bgd"'); //section.querySelector(".bgb") && section.querySelector(".bgc") && section.querySelector(".bgd");
+section-a.bg = section.querySelector(".bg"); //, ".bgb", ".bgc", ".bgd"'); //section.querySelector(".bgb") && section.querySelector(".bgc") && section.querySelector(".bgd");
 
 var pics = ["url(skyline1.jpg)", 
 "url(skyline2.jpg)",
@@ -40,7 +41,7 @@ section.bg.style.backgroundPosition = `100% 100% ${innerHeight / 1}px`;
 
     });
 
-   gsap.to(section.bg, {
+   gsap.to(section-a.bg, {
 
       backgroundPosition: `50% 50% ${innerHeight / 1}px`,
 

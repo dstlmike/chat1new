@@ -10,31 +10,9 @@
 
 section {
 
-position: relative;
-
-display: flex;
-
-height: 0; 
-
-padding-top: 33.3%;
-
-padding-bottom: 33.3%;
-
-width: 100%;
-
-z-index: 10;
-
-align-items: center;
-
-justify-content: center;
-
-}
-
-section-a {
-
   position: relative;
 
-z-index: 4;
+  height: 100vh;
 
   display: flex;
 
@@ -44,65 +22,23 @@ z-index: 4;
 
 }
 
-.witt {
-
-position: absolute;
-
-z-index: 7;
-
-color: blue;
-
-content: "";
-
-}
-
 .bg {
 
   position: absolute;
 
-display: flex;
+  top: 0;
 
-height: 0;
+  left: 0;
 
-    padding-top: 33.3%;
+  width: 100%;
 
-padding-bottom: 33.3%;
+  height: 100%;
 
-width: 100%;
+  z-index: -1;
 
-z-index: 8;
+  background-size: cover;
 
-  background-size: 100% auto;
-
-background-position: center;
-
-  background-attachment: fixed;
-
-  background-repeat: no-repeat;
-
-}
-
-.bg1 {
-
-  position: absolute;
-
-display: flex;
-
-height: 0;
-
-    padding-top: 33.3%;
-
-padding-bottom: 33.3%;
-
-width: 100%;
-
-z-index: 8;
-
-  background-size: 100% auto;
-
-background-position: center;
-
-  background-attachment: fixed;
+  background-position: center;
 
   background-repeat: no-repeat;
 
@@ -112,17 +48,16 @@ h1 {
 
   color: white;
 
-text-align: center;
-
-z-index: 8;
-
   text-shadow: 1px 1px 3px black;
 
-  font-size: 2em;
+  z-index: 1;
+
+  font-size: 3em;
 
   font-weight: 400;
 
 }
+
 
 h2 {
 

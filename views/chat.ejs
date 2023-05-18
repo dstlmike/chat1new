@@ -1,0 +1,275 @@
+<!DOCTYPE html> 
+
+<head>
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<link href="https://codepen.io/GreenSock/pen/7ba936b34824fefdccfe2c6d9f0b740b.css" rel="stylesheet" />
+
+<style>
+
+section {
+
+position: relative;
+
+display: flex;
+
+height: 0; 
+
+padding-top: 33.3%;
+
+padding-bottom: 33.3%;
+
+width: 100%;
+
+z-index: 10;
+
+align-items: center;
+
+justify-content: center;
+
+}
+
+section-a {
+
+  position: relative;
+
+z-index: 4;
+
+  display: flex;
+
+  align-items: center;
+
+  justify-content: center;
+
+}
+
+.witt {
+
+position: absolute;
+
+z-index: 7;
+
+color: blue;
+
+content: "";
+
+}
+
+.bg {
+
+  position: absolute;
+
+display: flex;
+
+height: 0;
+
+    padding-top: 33.3%;
+
+padding-bottom: 33.3%;
+
+width: 100%;
+
+z-index: 8;
+
+  background-size: 100% auto;
+
+background-position: center;
+
+  background-attachment: fixed;
+
+  background-repeat: no-repeat;
+
+}
+
+.bg1 {
+
+  position: absolute;
+
+display: flex;
+
+height: 0;
+
+    padding-top: 33.3%;
+
+padding-bottom: 33.3%;
+
+width: 100%;
+
+z-index: 8;
+
+  background-size: 100% auto;
+
+background-position: center;
+
+  background-attachment: fixed;
+
+  background-repeat: no-repeat;
+
+}
+
+h1 {
+
+  color: white;
+
+text-align: center;
+
+z-index: 8;
+
+  text-shadow: 1px 1px 3px black;
+
+  font-size: 2em;
+
+  font-weight: 400;
+
+}
+
+h2 {
+
+  color: white;
+
+  text-shadow: 1px 1px 3px black;
+
+  z-index: 5;
+
+  font-size: 3em;
+
+  font-weight: 400;
+
+}
+
+h3 {
+
+  color: white;
+
+  text-shadow: 1px 1px 3px black;
+
+  z-index: 5;
+
+text-align: center;
+
+  font-size: 3em;
+
+  font-weight: 400;
+
+}
+
+h4 {
+
+  color: blue;
+
+  text-shadow: 1px 1px 3px black;
+
+  z-index: 8;
+
+text-align: center;
+
+  font-size: 3em;
+
+  font-weight: 400;
+
+}
+
+body {
+
+position: relative;
+
+color: white;
+
+  font-family: Arial, Helvetica, sans-serif;
+
+  	width: 100%;margin: 0;
+
+background-color: black;
+
+  }
+
+</style>
+
+</head>
+
+<body>
+
+<h3>This is a Title</h3>
+
+<section-a>
+
+  <h2>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</h2>
+
+  <div class="bg"></div>
+
+</section-a>
+
+<!--
+
+<section class="parallax">
+
+  <div class="bg"></div>
+
+<h1>Hey look, the Skyline.</h1>
+
+</section>
+
+-->
+
+<section class="parallax">
+
+  <div class="bg"></div>
+
+  <div class="bg1"></div>
+
+<h1>The Skyline</h1>
+
+<img src="pic2.jpg" z-index="8" alt="T&L" width="200" height="300">
+
+</section>
+
+<section-a>
+
+<div class="bg"></div>
+
+<h2>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.<br>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</h2>
+
+</section-a>
+
+  <section class="parallax">
+
+<div class="bg"></div>
+
+<h4>Taco & BeeKing</h4>
+
+</section>
+
+<section-a>
+
+<div class="bg"></div>
+
+<h2>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.<br>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</h2>
+
+</section-a>
+
+<section class="parallax">
+
+<!--<div class="bg"></div>-->
+
+<video width="70%" height="auto" controls>
+
+  <source src="movie.mp4" type="video/mp4">
+
+  <source src="movie.ogg" type="video/ogg">
+
+  Your browser does not support the video tag.
+
+</video>
+
+</section>
+
+<script src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/16327/gsap-latest-beta.min.js"></script>
+
+<script src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/16327/ScrollTrigger.min.js"></script>
+
+<script src="/script.js"></script>
+
+</body>
+
+</html>

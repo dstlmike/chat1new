@@ -8,8 +8,35 @@ gsap.utils.toArray("section").forEach((section, i) => {
 
   // Give the backgrounds some random images
 
-  section.bg.style.backgroundImage = `url(https://picsum.photos/1600/800?random=${i})`;
+  var pics = ["url(skyline1.jpg)", 
 
+"url(skyline2.jpg)",
+
+"url(skyline3.jpg)",
+
+"url(skyline4.jpg)",
+
+"url(pic1.jpeg)",
+
+"url(pic2.jpg)",
+
+"url(pic3.jpeg)"
+
+];
+
+var pic = document.querySelector('section');
+
+  
+
+//function showImage() {
+
+            var a = Math.floor(Math.random() * pics.length);
+
+            var img = pics[a];
+
+  // Give the backgrounds some random images
+
+   section.bg.style.backgroundImage = img; // pics[a]; //showImage(); //`url(myPix[randomNum])`; //Screenshot_20221204-214401_Chrome.jpg)`;
   
 
   // the first image (i === 0) should be handled differently because it should start at the very top.

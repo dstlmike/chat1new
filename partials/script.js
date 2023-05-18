@@ -1,6 +1,6 @@
 gsap.registerPlugin(ScrollTrigger);
 
-let getRatio = el => window.innerHeight / (window.innerHeight + el.offsetHeight);
+let getRatio = el => window.outerHeight / (window.outerHeight + el.offsetHeight);
 
 gsap.utils.toArray("section").forEach((section, i) => {
 

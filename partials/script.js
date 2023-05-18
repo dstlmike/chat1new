@@ -36,8 +36,7 @@ section.bg.style.backgroundPosition = `100% 100% ${innerHeight / 1}px`;
       scrollTrigger: {
         trigger: section,
         scrub: true
-      }
-    });
+      
 
    gsap.to(section.bg, {
 
@@ -54,7 +53,9 @@ section.bg.style.backgroundPosition = `100% 100% ${innerHeight / 1}px`;
       }
 
     });
+}
 
+    });
 
  }
 });

@@ -22,13 +22,13 @@ var pic = document.querySelector('section');
 
 //function showImage() {
 
-            var aa = Math.floor(Math.random() * picss.length);
+            var a = Math.floor(Math.random() * picss.length);
 
-            var imgg = picss[aa];
+            var img = picss[a];
 
   // Give the backgrounds some random images
 
-   section.bp.style.backgroundImage = imgg; // pics[a]; //showImage(); //`url(myPix[randomNum])`; //Screenshot_20221204-214401_Chrome.jpg)`;
+   section.bp.style.backgroundImage = img; // pics[a]; //showImage(); //`url(myPix[randomNum])`; //Screenshot_20221204-214401_Chrome.jpg)`;
 
   
 

@@ -8,7 +8,7 @@ gsap.utils.toArray("section").forEach((section, i) => {
 
   // Give the backgrounds some random images
 
-  var picss = ["url(pic1.jpeg)",
+  var pics = ["url(pic1.jpeg)",
 
 "url(pic2.jpg)",
 
@@ -22,13 +22,13 @@ var pic = document.querySelector('section');
 
 //function showImage() {
 
-            var aa = Math.floor(Math.random() * picss.length);
+            var a = Math.floor(Math.random() * pics.length);
 
-            var imgg = picss[aa];
+            var img = pics[a];
 
   // Give the backgrounds some random images
 
-   section.bp.style.backgroundImage = imgg; // pics[a]; //showImage(); //`url(myPix[randomNum])`; //Screenshot_20221204-214401_Chrome.jpg)`;
+   section.bp.style.backgroundImage = img; // pics[a]; //showImage(); //`url(myPix[randomNum])`; //Screenshot_20221204-214401_Chrome.jpg)`;
 
   
 

@@ -36,7 +36,7 @@ var pic = document.querySelector('section');
 
   // use function-based values in order to keep things responsive
 
-  gsap.fromTo(section.bp, {
+  gsap.fromTo(section.bg, {
 
     backgroundPosition: () => i ? `50% ${-window.outerHeight * getRatio(section)}px` : "50% 0px"
 

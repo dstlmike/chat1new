@@ -4,7 +4,7 @@ let getRatio = el => window.outerHeight / (window.outerHeight + el.offsetHeight)
 
 gsap.utils.toArray("section").forEach((section, i) => {
 
-  section.bg.bg = section.querySelector(".bg"); 
+  section.bg.bg = section.querySelector(".bg.bg"); 
 var section.bp = section.bg;
   // Give the backgrounds some random images
 
@@ -28,7 +28,7 @@ var pic = document.querySelector('section');
 
   // Give the backgrounds some random images
 
-   section.bg.style.backgroundImage = img; // pics[a]; //showImage(); //`url(myPix[randomNum])`; //Screenshot_20221204-214401_Chrome.jpg)`;
+   section.bg.bg.style.backgroundImage = img; // pics[a]; //showImage(); //`url(myPix[randomNum])`; //Screenshot_20221204-214401_Chrome.jpg)`;
 
   
 
@@ -36,7 +36,7 @@ var pic = document.querySelector('section');
 
   // use function-based values in order to keep things responsive
 
-  gsap.fromTo(section.bg, {
+  gsap.fromTo(section.bg.bg, {
 
     backgroundPosition: () => i ? `50% ${-window.outerHeight * getRatio(section)}px` : "50% 0px"
 

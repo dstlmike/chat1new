@@ -230,7 +230,7 @@ function bttnInputtt(event) {
   if (event.type === 'click' && inputB.onclick) {
     window.location.href="/support";
   } else if (event.pointerType && inputB.onclick) {
-window.location.href="/support
+window.location.href="/support";
 
   } else {
     return false;

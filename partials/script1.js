@@ -38,11 +38,13 @@ var pic = document.querySelector('section');
 
   gsap.fromTo(section.bg.bg, {
 
-    backgroundPosition: () => i ? `50% ${-window.outerHeight * getRatio(section)}px` : "50% 0px"
+   gsap.fromTo(section.bg, {
+
+    backgroundPosition: () => i ? `50% ${-window.outerHeight * getRatio(section)}px` : "100% 0px"
 
   }, {
 
-    backgroundPosition: () => `50% ${window.outerHeight * (1 - getRatio(section))}px`,
+    backgroundPosition: () => `100% ${window.outerHeight * (1 - getRatio(section))}px`,
 
     ease: "none",
 
@@ -50,7 +52,7 @@ var pic = document.querySelector('section');
 
       trigger: section,
 
-      start: () => i ? "top bottom" : "top top", 
+      start: () => i ? "top bottom" : "bottom bottom", 
 
       end: "bottom top",
 
@@ -63,4 +65,3 @@ var pic = document.querySelector('section');
   });
 
 });
-

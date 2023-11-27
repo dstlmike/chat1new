@@ -45,7 +45,7 @@ var pic = document.querySelector('section');
 
   gsap.fromTo(section.bg, {
 
-    backgroundPosition: () => i ? `50% ${-window.outerHeight * getRatio(section)}px` : "50% 0px"
+    backgroundPosition: () => i ? `50% ${-window.outerHeight * getRatio(section)}px`// : "50% 0px"
 
   }, {
 

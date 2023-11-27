@@ -10,7 +10,7 @@ gsap.utils.toArray("section").forEach((section, i) => {
 
   var pics = ["url(pic1.jpg)", 
 
-"url(pic2.jpg)",
+//"url(pic2.jpg)",
 
 "url(pic3.jpg)",
 

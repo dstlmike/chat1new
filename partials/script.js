@@ -8,6 +8,23 @@ gsap.utils.toArray("section").forEach((section, i) => {
 
   // Give the backgrounds some random images
 
+  var pics = ["url(pic1.jpg)", 
+
+"url(pic2.jpg)",
+
+"url(pic3.jpg)",
+
+"url(pic4.jpg)",
+
+"url(pic5.jpeg)",
+
+//"url(pic2.jpg)",
+
+//"url(pic3.jpeg)"
+
+];
+
+/*
   var pics = ["url(skyline1.jpg)", 
 
 "url(skyline2.jpg)",
@@ -24,6 +41,8 @@ gsap.utils.toArray("section").forEach((section, i) => {
 
 ];
 
+*/
+  
 var pic = document.querySelector('section');
 
   

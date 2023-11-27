@@ -36,7 +36,7 @@ var pic = document.querySelector('section');
 
   // use function-based values in order to keep things responsive
 
-  gsap.fromTo(section.bg.bg, {
+  
 
    gsap.fromTo(section.bg, {
 

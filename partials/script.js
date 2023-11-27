@@ -16,7 +16,7 @@ gsap.utils.toArray("section").forEach((section, i) => {
 
 "url(pic4.jpg)",
 
-"url(pic5.jpeg)",
+"url(pic5.jpg)",
 
 //"url(pic2.jpg)",
 

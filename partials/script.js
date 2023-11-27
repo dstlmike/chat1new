@@ -45,7 +45,7 @@ var pic = document.querySelector('section');
 
   gsap.fromTo(section.bg, {
 
-    backgroundPosition: () => i ? `50% ${-window.outerHeight * getRatio(section)}px` : "50% 0px"
+    backgroundPosition: () => i ? `100% ${-window.outerHeight * getRatio(section)}px` : "50% 0px"
 
   }, {
 
@@ -57,7 +57,7 @@ var pic = document.querySelector('section');
 
       trigger: section,
 
-      start: () => i ? "top bottom", // : "top top", 
+      start: () => i ? "top bottom" : "top top", 
 
       end: "bottom top",
 

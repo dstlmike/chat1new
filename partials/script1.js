@@ -5,7 +5,7 @@ let getRatio = el => window.outerHeight / (window.outerHeight + el.offsetHeight)
 gsap.utils.toArray("section").forEach((section, i) => {
 
   section.bg.bg = section.querySelector(".bg.bg"); 
-var section.bp = section.bg;
+var section.bg = section.bg;
   // Give the backgrounds some random images
 
   var pics = ["url(pic1.jpeg)",

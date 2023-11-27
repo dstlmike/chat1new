@@ -57,7 +57,7 @@ var pic = document.querySelector('section');
 
       trigger: section,
 
-      start: () => i ? "top bottom" : "top top", 
+      start: () => i ? "top top" : "top top", 
 
       end: "bottom top",
 

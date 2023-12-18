@@ -68,7 +68,7 @@ var pic = document.querySelector('section');
 
   }, {
 
-    backgroundPosition: () => `50% ${window.outerHeight / (5 - getRatio(section))}px`,
+    backgroundPosition: () => `50% ${window.outerHeight / (2 - getRatio(section))}px`,
 
     ease: "none",
 

@@ -16,7 +16,7 @@ gsap.utils.toArray("section").forEach((section, i) => {
 
 "url(pic4.jpg)",
 
-"url(pic5.jpg)",
+//"url(pic5.jpg)",
 
 //"url(pic2.jpg)",
 
@@ -68,7 +68,7 @@ var pic = document.querySelector('section');
 
   }, {
 
-    backgroundPosition: () => `50% ${window.outerHeight * (1 - getRatio(section))}px`,
+    backgroundPosition: () => `100% ${window.outerHeight * (1 - getRatio(section))}px`,
 
     ease: "none",
 
